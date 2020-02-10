@@ -61,15 +61,20 @@ main{
 .title{
   margin: 15px 0 5px;
 }
-@media screan and (max-width:768px){
+@media screen and (max-width:768px){
   main{
   width: 100%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 .step-box{
   width: 90%;
   margin: 0 auto 20px auto;
+  float: none;
 }
+.step-box:last-child{
+  margin: 0 auto;
+}
+
+
 
 }
